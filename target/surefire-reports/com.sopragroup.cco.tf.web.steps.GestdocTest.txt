@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.sopragroup.cco.tf.web.steps.GestdocTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.332 sec <<< FAILURE!
+Then PRIN01 Acceder au catalogue \'Poisson\'(Scenario: Commander un Koi)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problem: 
+	The type PagePrincipaleSel must implement the inherited abstract method PagePrincipaleInterf.BtImage(String)
+
+	at com.sopragroup.cco.tf.web.pages.PagePrincipaleSel.BtImage(PagePrincipaleSel.java:12)
+	at com.sopragroup.cco.tf.web.steps.PagePrincipalStep.accescatalogue(PagePrincipalStep.java:44)
+	at ✽.Then PRIN01 Acceder au catalogue 'Poisson'(com\sopragroup\cco\tf\web\steps\login\AccueilMinimum.feature:19)
+Scenario: Commander un Koi  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problem: 
+	The type PagePrincipaleSel must implement the inherited abstract method PagePrincipaleInterf.BtImage(String)
+
+	at com.sopragroup.cco.tf.web.pages.PagePrincipaleSel.BtImage(PagePrincipaleSel.java:12)
+	at com.sopragroup.cco.tf.web.steps.PagePrincipalStep.accescatalogue(PagePrincipalStep.java:44)
+	at ✽.Then PRIN01 Acceder au catalogue 'Poisson'(com\sopragroup\cco\tf\web\steps\login\AccueilMinimum.feature:19)
